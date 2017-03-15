@@ -1,10 +1,11 @@
 
 function image_out=egalisation(matrice,hist_cum)  
-  
-  nb_pixel = hist_cum(256);
+  SizeX = size(matrice,"r");
+  SizeY = size(matrice,"c");
+  nb_pixel = SizeX*SizeY;
   disp (nb_pixel);
   coef = nb_pixel/255;
-  disp(coef)
+  disp(coef);
   table = zeros(1,256);
   
   for i = 1:256,
@@ -12,8 +13,7 @@ function image_out=egalisation(matrice,hist_cum)
   end
   disp(table);
   
-  SizeX = size(matrice,"r");
-  SizeY = size(matrice,"c");
+
   image_out= zeros(SizeX,SizeY);
   
   for i = 1:SizeX,

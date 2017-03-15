@@ -1,10 +1,9 @@
-//fonction d'addition d'image
+// fonction de soustraction
 
-// chargment des  images
+// chargement des images
 
-// for d'analyse de pixels addition
-
-function add=addition(matriceA,matriceB)
+// for d'analyse de pixels, soustraction
+function sous=soustraction(matriceA,matriceB)
     
     img_inA = matriceA;
     img_inB = matriceB;
@@ -15,9 +14,6 @@ function add=addition(matriceA,matriceB)
     SizeXb = size(matriceB,"r");
     SizeYb = size(matriceB,"c");
     
-    surfaceA = SizeXa * SizeYa;
-    surfaceB = SizeXb * SizeYb;
-
         img_out = zeros(SizeXa,SizeYa);
     
     for i = 1:SizeXa
@@ -25,11 +21,11 @@ function add=addition(matriceA,matriceB)
                 if j > SizeYb | i > SizeXb then
                     img_out(i,j) = img_inA(i,j);
                 else
-                somme = img_inA(i,j)+img_inB(i,j);
-                     if somme > 255 then
+                difference = img_inA(i,j)-img_inB(i,j);
+                     if difference < 0 then
                           img_out(i,j) = 255;
                      else
-                          img_out(i,j) = somme;
+                          img_out(i,j) = difference;
                      end,
                 end,
         end;    

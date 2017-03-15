@@ -17,4 +17,4 @@ img2 = readpbm('C:\Users\clement\Documents\GitHub\Projet-Exolife\images\Europa_s
 //display_gray(essai2);
 
 
-addition(img,img2);
+soustraction(img,img2);

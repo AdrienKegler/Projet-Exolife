@@ -11,7 +11,7 @@ y = 0;
 z = 0;
 
 for i= 1:256
-    while z=0, if hist_in(i) <=  y*CoDi | hist_in(i) == 0 then z = 1;  else y = y+1; end, disp(hist_in(i)) , end
+    while z==0, if hist_in(i) <=  y*CoDi | hist_in(i) == 0 then z = 1;  else y = y+1; end, disp(hist_in(i)) , end
     correspondance(i) = y;
     y = 0
     z = 0

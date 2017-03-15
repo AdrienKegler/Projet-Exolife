@@ -3,7 +3,7 @@
 
 function image=readpbm(filename)  
   [u,err]=mopen(filename,'rb')
-  if err<>0 then error('Error opening file '+filename), end
+  if err<>0 then error('Error opening file ' + filename), end
   if mgetl(u,1)~='P5' error('Unrecognized format'), end
   z=mgetl(u,1), while part(z,1)=='#', z=mgetl(u,1), end
   n=strtod(z)

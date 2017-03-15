@@ -1,5 +1,4 @@
-// reading image PGM RAW (8 bits) (PBM)
-// usage: img = readpbm('image.pbm');
+
 
 function histo=histogramme(matrice)  
   
@@ -14,6 +13,7 @@ function histo=histogramme(matrice)
           histo(pixel_value+1)= histo(pixel_value+1)+1;
       end
   end
+  
   figure;
   plot(histo);
 endfunction

@@ -1,4 +1,4 @@
-function table= HistogrammeCummule(matrice)
+function finaltable= HistogrammeCummule(matrice)
 
 
 SizeX =  size(matrice, "r");

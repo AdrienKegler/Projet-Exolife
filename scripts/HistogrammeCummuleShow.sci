@@ -1,4 +1,4 @@
-function finaltable= HistogrammeCummule(matrice)
+function table= HistogrammeCummuleShow(matrice)
 
 
 SizeX =  size(matrice, "r");
@@ -23,5 +23,9 @@ for i = 1:256
        finaltable(i) = table(1)
     end,
 end;
+
+disp(finaltable);
+figure;
+plot(finaltable);
 
 endfunction

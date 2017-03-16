@@ -1,5 +1,5 @@
 //fonction de débruitage
-function debruit=debruitage(matrice)
+function debruit=filtre_moyenneur(matrice)
 // séléction d'une image
 img_in = matrice;
 // aquisition des lignes min et max

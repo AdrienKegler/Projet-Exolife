@@ -30,4 +30,4 @@ display_gray (image_out);
 
 //Etape 9
 // Enregistrer la matrice sous forme d'image
-writepbm (img_in,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_X2_V2.pbm");
+writepbm (image_out,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_X2_V2.pbm");

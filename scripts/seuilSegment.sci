@@ -20,7 +20,5 @@ for i = 1:SizeX,
     end;
 end;
 
-figure;
-display_gray(sortie);
 
 endfunction

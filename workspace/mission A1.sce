@@ -35,5 +35,5 @@ disp(Coord);
 display_gray(img_out);
 
 //Etape N°4 - Save
-writepbm(img_out, "D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\A1.pbm");
+writepbm(img_out, "D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\mission_A1.pbm");
  

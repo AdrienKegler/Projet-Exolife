@@ -1,5 +1,5 @@
 //Chargement du fichier .dat sous forme de matrice de nombres complexes
-load("D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\Asellus Secundus.dat")
+load("C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\Asellus Secundus.dat")
 
 //Application de la transformation de Fourier Inversée
 
@@ -9,4 +9,4 @@ img_out = ifft(imgT);
 display_gray(img_out);
 
 //Save
-writepbm(img_out);
+writepbm(img_out,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_X1.pbm");

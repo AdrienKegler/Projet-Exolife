@@ -1,4 +1,4 @@
-function image_out=flou_median(matrice)
+function image_out=filtre_median(matrice)
     
 
 SizeX = size(matrice,1);

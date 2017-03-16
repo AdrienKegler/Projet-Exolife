@@ -9,11 +9,11 @@ display_gray(img_in);
 
 // Etape 3
 // Application d'un filtre median 
-image_1 = flou_median(img_in);
+image_1 = filtre_median(img_in);
 
 // Etape 4
 // Application d'un filtre median
-image_2 = flou_median(image_1);
+image_2 = filtre_median(image_1);
 
 // Etape 5
 // Création de l'histogramme cumulé
@@ -30,4 +30,4 @@ display_gray (image_out);
 
 //Etape 9
 // Enregistrer la matrice sous forme d'image
-//writepbm (img_in,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_B1.pbm");
+writepbm (img_in,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_B1.pbm");

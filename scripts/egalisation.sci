@@ -20,6 +20,8 @@ function image_out=egalisation(matrice,hist_cum)
       for j = 1:SizeY,
           pixel_value = matrice(i,j);
           image_out(i,j)= table(pixel_value+1);
-      end
-  end
+      end;
+  end;
+  
+  display_gray(image_out);
 endfunction

@@ -13,5 +13,6 @@ function image_out=normalisation(matrice,n_min,n_max)
       end;
   end;
   
+  display_gray(image_out);
 endfunction
 

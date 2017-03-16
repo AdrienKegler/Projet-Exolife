@@ -1,4 +1,4 @@
-function table= HistogrammeCummuleShow(matrice)
+function finaltable= HistogrammeCummuleShow(matrice)
 
 
 SizeX =  size(matrice, "r");
@@ -10,7 +10,7 @@ finaltable = zeros(1,256);
 
 for i = 1:SizeX,
     for j = 1:SizeY,
-        table(matrice(i,j)+1) = table(matrice(i,j)+1) +1
+        table(matrice(i,j)+1) = table(matrice(i,j)+1) +1;
     end;
 end;
 

@@ -26,5 +26,5 @@ for j= 1:SizeX
     end;
 end;
 
-
+display_gray(img_out);
 endfunction

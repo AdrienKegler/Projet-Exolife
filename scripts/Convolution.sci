@@ -9,7 +9,14 @@ image_out = zeros(SizeX,SizeY);
 // for chaque pixels 
 for i = 1:SizeX,
     for j = 1:SizeY
-        image_out(i,j)= sqrt(image_x(i,j)*image_x(i,j)+image_y(i,j)*image_y(i,j));
+        calcul= round(sqrt((image_x(i,j)*image_x(i,j))+(image_y(i,j)*image_y(i,j))));
+        if calcul > 255 then
+            image_out(i,j)= 255;
+        elseif calcul < 0 then
+            image_out(i,j)=0
+        else
+            image_out(i,j)= calcul;
+        end,
     end;        
 end;
 

@@ -1,4 +1,4 @@
-function image_out=flou_g(matrice)
+function image_out=filtre_gaussien(matrice)
     
 
 SizeX = size(matrice,"r");

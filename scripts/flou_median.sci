@@ -54,12 +54,12 @@ for i = 1:SizeX,
             matrice_median = [matrice(i,j),matrice(i,j) , matrice(i,j-1), matrice(i,j-1) , matrice(i,j+1), matrice(i,j+1) , matrice(i-1,j-1) , matrice(i-1,j), matrice(i-1,j+1)];
             matrice_trie = gsort(matrice_median,'g','i');
             image_out(i,j)= matrice_trie(5);  
-            disp('i');
+            
         else 
             matrice_median = [matrice(i,j) , matrice(i-1,j-1) , matrice(i-1,j) , matrice(i-1,j+1) , matrice(i,j-1) , matrice(i,j+1) , matrice(i+1,j-1) , matrice(i+1,j), matrice(i+1,j+1)];
             matrice_trie = gsort(matrice_median,'g','i');
             image_out(i,j)= matrice_trie(5);   
-            //disp('e');         
+                  
         end,
     end;        
 end;

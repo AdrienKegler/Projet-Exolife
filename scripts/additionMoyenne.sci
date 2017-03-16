@@ -4,7 +4,7 @@
 
 // for d'analyse de pixels addition
 
-function add=addition(matriceA,matriceB)
+function img_out=additionMoyenne(matriceA,matriceB)
     
     img_inA = matriceA;
     img_inB = matriceB;

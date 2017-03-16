@@ -4,7 +4,7 @@
 
 // for d'analyse de pixels addition
 
-function add=addition(matriceA,matriceB)
+function img_out=addition(matriceA,matriceB)
     
     img_inA = matriceA;
     img_inB = matriceB;
@@ -35,5 +35,5 @@ function add=addition(matriceA,matriceB)
         end;    
     end;
     
-    display_gray(img_out);
+    //display_gray(img_out);
 endfunction

@@ -3,7 +3,7 @@
 // chargement des images
 
 // for d'analyse de pixels, soustraction
-function sous=soustraction(matriceA,matriceB)
+function img_out=soustraction(matriceA,matriceB)
     
     img_inA = matriceA;
     img_inB = matriceB;
@@ -23,7 +23,7 @@ function sous=soustraction(matriceA,matriceB)
                 else
                 difference = img_inA(i,j)-img_inB(i,j);
                      if difference < 0 then
-                          img_out(i,j) = 255;
+                          img_out(i,j) = 0;
                      else
                           img_out(i,j) = difference;
                      end,
@@ -31,5 +31,5 @@ function sous=soustraction(matriceA,matriceB)
         end;    
     end;
     
-    display_gray(img_out);
+    //display_gray(img_out);
 endfunction

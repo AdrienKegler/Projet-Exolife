@@ -12,7 +12,6 @@ function image_out=normalisation(matrice,n_min,n_max)
           image_out(i,j)= ((pixel_value-n_min)*255)/(n_max-n_min);
       end;
   end;
-  
-  display_gray(image_out);
+
 endfunction
 

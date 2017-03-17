@@ -22,6 +22,5 @@ function image_out=egalisation(matrice,hist_cum)
           image_out(i,j)= table(pixel_value+1);
       end;
   end;
-  
-  display_gray(image_out);
+
 endfunction

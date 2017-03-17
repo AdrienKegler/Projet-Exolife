@@ -1,6 +1,6 @@
 // Etape 1
 // Convertion de l'image en matrice
-path_name = 'C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\Contours.pbm';
+path_name = 'D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\Contours.pbm';
 img_in = readpbm (path_name);
 
 // Etape 2
@@ -20,4 +20,4 @@ display_gray (image_out);
 
 //Etape 5
 // Enregistrer la matrice sous forme d'image
-writepbm (image_out,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_N1.pbm");
+writepbm (image_out,"D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\mission_N1.pbm");

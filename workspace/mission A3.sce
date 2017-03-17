@@ -1,6 +1,6 @@
 // Etape 1
 // Convertion des images en matrice
-path_name = 'C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\Europa_surface.pbm';
+path_name = 'D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\Europa_surface.pbm';
 image_in = readpbm(path_name);
 
 
@@ -25,4 +25,4 @@ display_gray (image_out);
 
 //Etape 6
 // Enregistrer la matrice sous forme d'image
-writepbm (image_out,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_A3.pbm");
+writepbm (image_out,"D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\mission_A3.pbm");

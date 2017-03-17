@@ -1,5 +1,5 @@
 // Convertion de l'image en matrice
-path_name = 'C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\Mars_surface.pbm';
+path_name = 'D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\Mars_surface.pbm';
 img_in = readpbm (path_name);
 
 // Etape 2

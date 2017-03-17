@@ -1,7 +1,7 @@
 // Etape 1
 // Convertion des images en matrice
-path1_name = 'C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\Jupiter1.pbm';
-path2_name = 'C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\Jupiter2.pbm';
+path1_name = 'D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\Jupiter1.pbm';
+path2_name = 'D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\Jupiter2.pbm';
 
 image_1 = readpbm(path1_name);
 image_2 = readpbm(path2_name);
@@ -33,4 +33,4 @@ display_gray (image_out);
 
 //Etape 7
 // Enregistrer la matrice sous forme d'image
-writepbm (image_out,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_A4.pbm");
+writepbm (image_out,"D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\mission_A4.pbm");

@@ -7,7 +7,7 @@ img_in = readpbm(path_name);
 histo = histogramme(img_in);
 
 histo_cum = HistogrammeCummule(img_in);
-img_out = egalisation(img_out, histo_cum);
+img_out = egalisation(img_in, histo_cum);
 
 
 //X & Y Convolution

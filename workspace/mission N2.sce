@@ -10,7 +10,8 @@ display_gray(img_in);
 // Etape 3
 // Creation de l'element structurant
 structurant = zeros(3,3);
-structurant = [0,255,0;255,255,255;0,255,0];
+structurant = [0,0,0;255,255,255;0,0,0];
+display_gray(structurant);
 
 // Etape 4
 // Erosion de l'image

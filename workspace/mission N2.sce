@@ -1,6 +1,6 @@
 // Etape 1
 // Convertion de l'image en matrice
-path_name = 'C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\Formes.pbm';
+path_name = 'D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\Formes.pbm';
 img_in = readpbm (path_name);
 
 // Etape 2
@@ -11,7 +11,6 @@ display_gray(img_in);
 // Creation de l'element structurant
 structurant = zeros(3,3);
 structurant = [0,0,0;255,255,255;0,0,0];
-display_gray(structurant);
 
 // Etape 4
 // Erosion de l'image
@@ -28,4 +27,4 @@ display_gray (image_out);
 
 //Etape 7
 // Enregistrer la matrice sous forme d'image
-//writepbm (image_out,"C:\Users\Aurélia\Documents\GitHub\Projet-Exolife\images\mission_N2.pbm");
+writepbm (image_out,"D:\Users\ADRIEN KEGLER\Documents\Visual Studio 2015\Projects\Exolife\Projet-Exolife\images\mission_N2.pbm");
